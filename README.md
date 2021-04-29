@@ -4,7 +4,7 @@ This is a pet project only for learning purposes. The aim of this code is to lea
 
 <!-- INSERT GITHUB IMG CODE -->
 <p align="center" width="300">
-    <img align="center" widht="460" height="300" src="" />
+    <img align="center" widht="460" height="300" src="https://github.com/jgcarrillo/book-aggregator/blob/main/css/img/demo.JPG" />
 </p>
 
 ## List of features

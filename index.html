@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Añadir libros</title>
+
+        <!-- BOOTSTRAP 4-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap4/bootstrap.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="container justify-content-center id="contenedor_global">
+            <div class="row">
+                <div class="d-none d-md-block col-md-3 col-lg-3"></div>
+                <div class="col-xs-12 col-md-12 col-lg-6 col-lg-6">
+
+                    <!-- ALERTAS -->
+                    <div id="alerta_libro_nuevo"></div>
+                    <div id="alerta_libro_eliminado"></div>
+
+                    <div class="card-header titulo-general text-center bg-white mt-5" id="encabezado_uno">Agregador de libros</div>
+                    <div class="card-body bg-light mb-5" id="cuerpo-carta">
+
+                    <form id="contenedor_datos">
+                        <label for="titulo">Título</label>
+                        <input class="form-control" type="text" id="titulo" autofocus>
+
+                        <label class="mt-2" for="autor">Autor</label>
+                        <input class="form-control" type="text" id="autor">
+
+                        <label class="mt-2" for="isbn">ISBN</label>
+                        <input class="form-control mb-3" type="text" id="isbn">
+
+                        <input class="form-control btn-primary" type="button" onclick="nuevoLibro()" id="btn_libros" value="Agregar!">
+                    </form>
+
+                    <hr id="separador">
+
+                    <div id="contenedor_libros_generados">
+                        <div id="libros_generados">
+                            <!-- Libros  -->
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-block col-md-3 col-lg-3"></div>
+            </div>
+    </body>
+</html>

@@ -3,8 +3,8 @@
 This is a pet project only for learning purposes. The aim of this code is to learn the basics about HTML, CSS and (obviously) JS. I made this program in the early times of my web dev path so the code might be a little mess.
 
 <!-- INSERT GITHUB IMG CODE -->
-<p align="center" width="300">
-    <img align="center" width="460" height="300" src="https://github.com/jgcarrillo/book-aggregator/blob/main/css/img/demo.JPG" />
+<p align="center" width="453" height="321">
+    <img align="center" width="453" height="321" src="https://github.com/jgcarrillo/book-aggregator/blob/main/css/img/demo.JPG" />
 </p>
 
 ## List of features
